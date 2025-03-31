@@ -1,0 +1,30 @@
+:root {
+  --title-color: rgb(44, 36, 36);
+  --website-color: #fdf1b8;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: var(--website-color);
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.champigustologo {
+  width: 100px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.title {
+  color: var(--title-color);
+  text-align: center;
+  margin-top: -5px;
+}
+
+.searchbox {
+  align-self: center;
+}
